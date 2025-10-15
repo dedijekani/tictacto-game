@@ -35,7 +35,7 @@ const Cell = ({go , setGo , id , cells , setCells , cell ,winnigMessage , comboI
     }
 
     const handleCellChange = (cellToChange:string) => {
-        let copyCells = [...cells];
+        const copyCells = [...cells];
         copyCells[id] = cellToChange;
         setCells(copyCells);
     }

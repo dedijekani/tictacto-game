@@ -83,7 +83,7 @@ export default function Home() {
       <div>
        { 
         !winnigMessage && <div className="flex items-center justify-center gap-1">  
-          Now it's the {go === "circle" ? <span className="text-sky-500 text-xl">O</span>:<span className="text-red-500 text-xl" >X</span>} turn
+          Now it&apos;s the {go === "circle" ? <span className="text-sky-500 text-xl">O</span>:<span className="text-red-500 text-xl" >X</span>} turn
         </div>
         }
         <div className={`${winnigMessage === "Circle Wins!" ? "text-sky-500":
