@@ -18,10 +18,10 @@ const RestartButton: React.FC<RestartButtonProps> = ({ onRestart }) => {
   return (
     <button
       onClick={handleClick}
-      className={`p-2 rounded-full bg-blue-500 text-white focus:outline-none  cursor-pointer
+      className={`p-3 rounded-full bg-blue-500 text-white focus:outline-none  cursor-pointer
                   ${isSpinning ? "animate-spin" : ""}`}
     >
-      <FaSyncAlt size={24} />
+      <FaSyncAlt size={32} />
     </button>
   );
 };
