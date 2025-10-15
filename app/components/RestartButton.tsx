@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import { FaSyncAlt } from "react-icons/fa";
 
 interface RestartButtonProps {
-  onRestart: () => void; // دالة لا تأخذ أي بارامترات ولا ترجع شيء
+  onRestart: () => void; 
+  
 }
 
 const RestartButton: React.FC<RestartButtonProps> = ({ onRestart }) => {
